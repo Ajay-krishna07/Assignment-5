@@ -284,6 +284,19 @@ footer {
 	border-radius: 10px;
 } */
 
+.follow span{
+	font-size: 1.1rem;
+}
+.follow a {
+	text-decoration: none ;
+	color: inherit;/* makes it use parent text color */
+	font-size: 1.5rem;
+}
+
+.follow a:hover {
+	color: rgb(16, 128, 48);
+}
+
 /* Media Query */
 
 @media only screen and (max-width: 768px) {
